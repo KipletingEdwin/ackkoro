@@ -5,9 +5,9 @@
 
 header{
     display: flex;
-    background-color: #000000;
+    background-color: #1f1c1c;
     width: 100%;
-    height: 60px;
+    height: 70px;
 }
 
 header img{
@@ -19,7 +19,7 @@ header img{
 header ul{
     float: right;
     list-style: none;
-    width: 60%;
+    width: 100%;
     margin-left: 20%;
     color: white;
     font-family: 'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
@@ -32,13 +32,21 @@ header ul{
 }
 
 header ul li{
-    display: inline-block;
-    
+    display: inline-block; 
+}
+header ul li:hover{
+    background-color: green;
+}
+header ul ul{
+    display: none;
+}
+header ul li:hover >ul{
+    display: block;
 }
 
 .container{
-    background-color: green;
-    height: 500px;
+    background-color: rgb(96, 96, 155);
+    height: 520px;
     color: white;
     text-align: center;
     width: 100%;
@@ -61,7 +69,11 @@ header ul li{
 .container button{
     background-color: red;
     color: white;
-    border-radius: 7px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    border: 1px solid red;
+    padding: 20px 20px;
 }
+
+  
