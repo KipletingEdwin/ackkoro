@@ -1,6 +1,7 @@
 *{
     padding: 10px;
     margin: 0px;
+    width: 100%;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
 header img{
     padding: 0px;
     margin: 0px;
-    height: 60px;
+    height: 70px;
 }
 
 header ul{
@@ -34,22 +35,28 @@ header ul{
 header ul li{
     display: inline-block; 
 }
+
 header ul li:hover{
     background-color: green;
 }
+
 header ul ul{
     display: none;
 }
+
 header ul li:hover >ul{
     display: block;
 }
 
 .container{
     background-color: rgb(96, 96, 155);
-    height: 520px;
+    height: 535px;
     color: white;
     text-align: center;
     width: 100%;
+    background-image: url("./images/koro1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container h4{
@@ -57,15 +64,18 @@ header ul li:hover >ul{
     font-style: italic;
 
 }
+
 .container h1{
    height: 100px;
    font-size: 6em;
     
 }
+
 .container h2{
     height: 100px;
     font-size: 3em;
 }
+
 .container button{
     background-color: red;
     color: white;
@@ -76,4 +86,127 @@ header ul li:hover >ul{
     padding: 20px 20px;
 }
 
-  
+.verses{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.verses h2{
+    padding-left: 8%;
+}
+
+.verses h2 span{
+    padding-left: 25%;
+}
+
+.verses h3{
+    padding-left: 42%;
+}
+
+#who h2{
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#who h4{
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+}
+
+#history{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    font-style: normal;
+    color: #8b8b8b;
+    margin-top: 15px;
+}
+
+.hist{
+    width: 50%;
+    
+}
+
+.ory{
+    float: right;
+    width: 50%;
+    
+}
+p{
+    text-align: center;
+}
+.pic{
+    background-color: red;
+    height: 650px;
+    width: 100%;
+    background-image: url("./images/koro2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pic p{
+    font-size: 3rem;
+    padding-top: 40px;
+}
+.pic h2{
+    font-size: 3rem;
+    text-align: center;
+    height: 150px;
+}
+.pic button{
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin-left: 45%;
+    color: white;
+    padding: 20px 20px;
+}
+.vicars{
+    height: 500px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+.vicars img{
+    border-radius: 50%;
+    height: 300px;
+    width: auto;
+    
+}
+.vicars h5{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(63, 59, 59);
+}
+.vicars h4{
+    color: rgb(58, 56, 172);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+.vicars p{
+   
+    background-color: orangered;
+    height: 150px;
+}
+#sermons{
+    background-color: yellow;
+    height: 450px;
+    width: 100%;
+    margin: 10px;
+}
+#sermons img{
+    height: 300px;
+    width: auto;
+}
