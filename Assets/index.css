@@ -1,7 +1,7 @@
 *{
     padding: 10px;
     margin: 0px;
-    width: 100%;
+   
 }
 
 header{
@@ -94,11 +94,11 @@ header ul li:hover >ul{
 }
 
 .verses h2{
-    padding-left: 8%;
+    padding-left: 3%;
 }
 
 .verses h2 span{
-    padding-left: 25%;
+    padding-left: 10%;
 }
 
 .verses h3{
@@ -196,17 +196,70 @@ p{
     text-decoration: none;
 }
 .vicars p{
-   
-    background-color: orangered;
     height: 150px;
+    width: 100%;
 }
 #sermons{
-    background-color: yellow;
-    height: 450px;
+    height: 650px;
     width: 100%;
     margin: 10px;
 }
 #sermons img{
     height: 300px;
     width: auto;
+}
+#sermons h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#sermons i{
+    background-color: red;
+     
+}
+#sermons p{
+    font-style: italic;
+    text-align: left;
+}
+
+#sermons h5{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.ministries{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+ h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.min-contents{
+    
+    width: 10.8%;
+    height: 250px;
+}
+
+.min-contents img{
+    height: 100px;
+    width: auto;
+}
+
+#next{
+    background-color:orange;
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+#next h4{
+    color: white;
+    margin-left: 20%;
+}
+#next button{
+    color: white;
+    background-color: red;
+    padding: 5px 20px;
+    margin-left: 50%;
 }
